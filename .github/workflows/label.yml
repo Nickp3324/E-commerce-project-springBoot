@@ -11,6 +11,10 @@ on:
         options:
           - dev
           - uat
+      branch:
+        description: 'Branch to deploy from'
+        required: true
+        default: 'develop'
  
 env:
   ARTIFACTORY_URL_DEV: "enterpriseprotal-docker-dev.artifactory.dhl.com"
